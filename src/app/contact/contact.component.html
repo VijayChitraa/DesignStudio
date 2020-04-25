@@ -1,0 +1,39 @@
+<h3 >GET IN TOUCH</h3>
+<h3 *ngIf= "submitted">Yay ! Thank You &hearts; </h3>
+<div  class="center">
+      
+    <form  [formGroup]="contactForm"  id="contactForm" (ngSubmit)="onSubmit()">
+      
+      <mat-form-field class="t-box">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Ex. John Doe" value="" formControlName="name" >
+      </mat-form-field>
+
+
+       <mat-form-field class="t-box1">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Ex.  johndoe@domai.com" value="" formControlName="email" type="email">
+       </mat-form-field>
+
+          <mat-form-field class="t-box2">
+            <mat-label>Need</mat-label>
+            <input matInput placeholder="Ex.  Website, Logo, Brochure" value="" formControlName="need">
+          </mat-form-field>
+
+          <div class="button0">
+            <button  mat-raised-button class="text" type="submit" >SEND</button>
+          </div>
+          
+          
+    </form>
+
+  
+</div>
+
+
+
+
+
+
+
+
