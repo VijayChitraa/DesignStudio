@@ -20,6 +20,7 @@ import { AngularFireModule } from '@angular/fire/';
 import {AngularFireDatabaseModule} from '@angular/fire/database'
 import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { StickyBarComponent } from './sticky-bar/sticky-bar.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     ContactComponent,
     HomepageComponent,
     AboutComponent,
+    StickyBarComponent,
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebase),

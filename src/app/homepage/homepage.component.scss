@@ -5,7 +5,7 @@ a {
 }
 body {
     margin: 0;
-    background: #2B192F;
+    background: #1b1b2f;
     color: white;
     font-family: 'Montserrat';
 }
@@ -19,7 +19,15 @@ ul {
 
 .hero-wrapper {
     background-size: cover;
-    background-image: url("/assets/Images/BG.png");
+    //Old
+    //background: rgb(203,30,196);
+    // background: linear-gradient(232deg, rgba(203,30,196,1) 42%, rgba(162,0,255,1) 100%);
+
+    background: rgb(192,96,161);
+    background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
+    
+    //very-old
+    // background-image: url("/assets/Images/BG.png");
 }
 
 .wrapper {
@@ -54,7 +62,8 @@ header {
 }
 
 .light-purple-wrapper {
-    background: #351F3A;
+    background: #FFFFFF;
+    
 }
 
 
@@ -73,9 +82,12 @@ ul.carousal {
     margin-bottom: 1em;
     
     li {
-        background: #422847;
+        background: rgb(192,96,161);
+    background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
+       
         padding: 1em;
         margin-bottom: 1em;
+        border-radius: 10px;
     }
 }
 
@@ -87,7 +99,7 @@ blockquote {
 }
 
 cite {
-    color: #E379FF;
+    color: #c060a1;
     font-weight: bold;
     font-size: .8em;
     font-style: normal;
@@ -115,7 +127,7 @@ h2::before {
     position: absolute;
     height: 5px;
     width: 30px;
-    background: #B728DC;
+    background: #c060a1;
     top: -.3em;
 }
 
@@ -132,6 +144,9 @@ h1 {
 h2 {
     text-align: left;
     font-size: 2em;
+    background: -webkit-linear-gradient(#c060a1, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .v-padding {
     padding: 4em;
@@ -147,18 +162,25 @@ h2 {
 .services {
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 35px;
     line-height: 200%;
+    background: -webkit-linear-gradient(#c060a1, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 @media (max-width: 418px) {
     .services {
         font-family: Montserrat;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 550;
         font-size: 25px;
         line-height: 200%;
+        background: -webkit-linear-gradient(#c060a1, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       
         
     }
 }
@@ -167,6 +189,7 @@ h2 {
     .companies {
         display: grid;
         grid-template-columns: repeat(1,auto);
+        padding-top: 0;
     }
 
     .wrapper {

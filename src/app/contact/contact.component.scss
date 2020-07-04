@@ -1,13 +1,13 @@
 body {
     margin: 0;
     display: block;
-    color: white;
+    // color: white;
     font-family: 'Montserrat';
 }
 
 .center {
     margin: 0 auto;
-    margin-top: 30%;
+    // margin-top: 30%;
     width: 280px;
     height: 380px;
     left: 66px;
@@ -34,9 +34,12 @@ body {
     font-size: 25px;
     line-height: 30px;
     letter-spacing: 0.21em;
+    background: -webkit-linear-gradient(#c060a1, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
   
-    color: #FFFFFF;
+    // color: #FFFFFF;
 }
 
 
