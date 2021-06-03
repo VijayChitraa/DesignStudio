@@ -5,14 +5,15 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyBICDbzKCKSoejMN1T_Ve4amElxczyX1pU",
-    authDomain: "vdesignstudio.firebaseapp.com",
-    databaseURL: "https://vdesignstudio.firebaseio.com",
-    projectId: "vdesignstudio",
-    storageBucket: "vdesignstudio.appspot.com",
-    messagingSenderId: "678580566436",
-    appId: "1:678580566436:web:c5acad1331e704e01fe931",
-    measurementId: "G-250PD41DHE"
+     apiKey: "AIzaSyARfIb1rH4riCxUwJfesvZA9YvfICDyXEc",
+  authDomain: "vijay-chitra.firebaseapp.com",
+  databaseURL: "https://vijay-chitra-default-rtdb.firebaseio.com",
+  projectId: "vijay-chitra",
+  storageBucket: "vijay-chitra.appspot.com",
+  messagingSenderId: "454417398581",
+  appId: "1:454417398581:web:25c60d1a1db066bac62a7c",
+  measurementId: "G-01CNFVSWWS"
+
   }
 };
 

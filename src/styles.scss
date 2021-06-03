@@ -8,8 +8,10 @@
 
 body {
     margin: 0;
-    background: #f7f7f7;
-    color: white;
+    // background: rgb(0,206,209);
+    // background: linear-gradient(90deg, rgba(0,206,209,1) 0%, rgba(0,206,209,1) 50%, rgba(0,206,209,1) 100%); 
+    background:  #e5e5e5;
+    color: rgb(255, 255, 255);
     font-family: 'Montserrat';
 }
 
@@ -72,8 +74,11 @@ body {
 
   .home  {
     // background: #b5076b;
-    background: rgb(192,96,161);
-    background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
+    // background: rgb(192,96,161);
+    // background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
+    // background: rgb(0,206,209);
+    // background: linear-gradient(90deg, rgba(0,206,209,1) 0%, rgba(0,206,209,1) 50%, rgba(0,206,209,1) 100%); 
+    background:  #e5e5e5;
     color: white;
   }
 
@@ -134,9 +139,16 @@ body {
     
       .home  {
         // background: #b5076b;
-        background: rgb(192,96,161);
-        background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
+        // background: rgb(192,96,161);
+        // background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
+       // background: rgb(0,206,209);
+    // background: linear-gradient(90deg, rgba(0,206,209,1) 0%, rgba(0,206,209,1) 50%, rgba(0,206,209,1) 100%); 
+    background:  #e5e5e5;
         color: white;
       }
     
+}
+
+.green-progress .mat-progress-bar-fill::after {
+  background-color: #27bdce   ;
 }

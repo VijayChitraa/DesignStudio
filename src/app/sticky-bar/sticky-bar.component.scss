@@ -20,26 +20,26 @@
   
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
-    background-color: #000;
+    background-color: #27bdce;
   }
   
   .facebook {
-    background: #3B5998;
+    background: #494440;
     color: white;
   }
   
   .twitter {
-    background: #55ACEE;
+    background: #0894ff;
     color: white;
   }
   
   .google {
-    background: #dd4b39;
+    background: #e7290f;
     color: white;
   }
   
   .linkedin {
-    background: #007bb5;
+    background: #494440;
     color: white;
   }
   
@@ -50,9 +50,9 @@
 
   .home  {
     // background: #b5076b;
-    background: rgb(192,96,161);
-    background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
-    color: white;
+         background: rgb(0,191,255);
+
+    color: black;
   }
 
 
@@ -63,7 +63,7 @@
 
     .icon-bar {
       position: fixed;
-        top: 95%;
+        top: 97%;
         width: 100%;
       // background-color: #555;
       overflow: auto;
@@ -82,26 +82,26 @@
     }
       /* Style the social media icons with color, if you want */
       .icon-bar a:hover {
-        background-color: #000;
+        background-color: #27bdce;
       }
       
       .facebook {
-        background: #3B5998;
+        background: #494440;
         color: white;
       }
       
       .twitter {
-        background: #55ACEE;
+        background: #0894ff;
         color: white;
       }
       
       .google {
-        background: #dd4b39;
+        background: #e7290f;
         color: white;
       }
       
       .linkedin {
-        background: #007bb5;
+        background: #494440;
         color: white;
       }
       
@@ -112,8 +112,8 @@
     
       .home  {
         // background: #b5076b;
-        background: rgb(192,96,161);
-        background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
+        background: rgb(0,191,255);
+        // background: linear-gradient(90deg, rgba(0,206,209,1) 0%, rgba(0,206,209,1) 50%, rgba(0,206,209,1) 100%); 
         color: white;
       }
     

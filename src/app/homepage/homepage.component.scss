@@ -1,12 +1,13 @@
 a {
-    color: white;
+    color: #fbfdfd;
+    font-weight: 510;
     text-decoration: none;
     
 }
 body {
     margin: 0;
-    background: #1b1b2f;
-    color: white;
+    background: #ffffff;
+    color: #fbfdfd;
     font-family: 'Montserrat';
 }
 
@@ -19,21 +20,32 @@ ul {
 
 .hero-wrapper {
     background-size: cover;
-    //Old
-    //background: rgb(203,30,196);
-    // background: linear-gradient(232deg, rgba(203,30,196,1) 42%, rgba(162,0,255,1) 100%);
-
-    background: rgb(192,96,161);
-    background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
+    background: #27bdce;
     
-    //very-old
-    // background-image: url("/assets/Images/BG.png");
+}
+
+.hero-wrapper2 {
+    background-size: cover;
+    background: #27bdce;
+    padding-bottom: 1.5em;
+        // padding: 0px 30px 30px 30px;
+      
+    
 }
 
 .wrapper {
     padding: 1.5em;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.wrapper2 {
+    padding: 1.5em;
+    padding-bottom: 1.5em;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
 }
 
 header {
@@ -58,11 +70,13 @@ header {
 
     .subtitle {
         margin-bottom: 0;
+        color: #fbfdfd;;
+        font-weight: 510;
     }
 }
 
 .light-purple-wrapper {
-    background: #FFFFFF;
+    background: #fbfdfd;;
     
 }
 
@@ -76,15 +90,18 @@ header {
     padding: 0 1.5em 2em;
     max-width: 1230px;
     margin: 0 auto;
+    
 }
 
 ul.carousal {
     margin-bottom: 1em;
     
     li {
-        background: rgb(192,96,161);
-    background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
-       
+    //     background: rgb(192,96,161);
+    // background: linear-gradient(232deg, rgba(192,96,161,1) 50%, rgba(106,9,125,1) 100%);
+    // background: rgb(0,206,209);
+    // background: linear-gradient(90deg, rgba(0,206,209,1) 0%, rgba(0,206,209,1) 50%, rgba(0,206,209,1) 100%); 
+    background: #27bdce;
         padding: 1em;
         margin-bottom: 1em;
         border-radius: 10px;
@@ -96,10 +113,12 @@ blockquote {
     font-size: .8em;
     line-height: 1.8em;
     margin-bottom: 1em;
+    font-weight: 600;
+    color: #fbfdfd;;
 }
 
 cite {
-    color: #c060a1;
+    color: #fbfdfd;;
     font-weight: bold;
     font-size: .8em;
     font-style: normal;
@@ -114,7 +133,7 @@ cite::before {
     top: 6px;
     height: 1px;
     width: 20px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fbfdfd;;
 }
 
 h2 {
@@ -127,7 +146,7 @@ h2::before {
     position: absolute;
     height: 5px;
     width: 30px;
-    background: #c060a1;
+    background: white;
     top: -.3em;
 }
 
@@ -144,7 +163,8 @@ h1 {
 h2 {
     text-align: left;
     font-size: 2em;
-    background: -webkit-linear-gradient(#c060a1, #333);
+    // background: -webkit-linear-gradient(#008B8B, rgb(0, 255, 255));
+    background: #fbfdfd;;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -166,7 +186,8 @@ h2 {
     font-weight: 550;
     font-size: 35px;
     line-height: 200%;
-    background: -webkit-linear-gradient(#c060a1, #333);
+    // background: -webkit-linear-gradient(#008B8B, rgb(0, 255, 255));
+    background: #fbfdfd;;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -179,7 +200,8 @@ h2 {
         font-weight: 550;
         font-size: 25px;
         line-height: 200%;
-        background: -webkit-linear-gradient(#c060a1, #333);
+        // background: -webkit-linear-gradient(#008B8B, rgb(0, 255, 255));
+        background: #fbfdfd;;
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -308,7 +330,8 @@ h2 {
 
 @media(min-width:800px) {
     .companies li {
-        border-right: 2px solid rgb(124, 89, 148);
+        // border-right: 2px solid rgb(124, 89, 148);
+        border-right: 2px solid #fbfdfd;;
         padding-left: 15%;
 
         &:last-child {

@@ -1,0 +1,15 @@
+{
+  "targets": {
+    "vdesignstudio": {
+      "hosting": {
+        "designStudio": [
+          "vdesignstudio"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "vdesignstudio",
+    "staging": "vijay-chitra"
+  }
+}
